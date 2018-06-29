@@ -6,7 +6,7 @@
     "email": "tobias.schneck@loodse.com",
     "phone": "+49 (40) 60 590 7110",
     "url": "",
-    "summary": "Tobias worked many years as software developer specializing in test automation and continuous integration projects. As co-founder of the open source testing framework \"Sakuli\", he follow the aim of making the setup and the development of end-2-end tests and monitoring cases simpler. As conference speaker and organizer of the meetup \"Agile Testing @Munich\" he is passionate about innovative technologies and ideas which make developers' work easier and complex deployments more convenient. His current passion is to increase the acceptance and distribution of container technologies in the Kubernetes eco-system. Bringing the advantages of cloud native technologies and development workflows to everybody is his new purpose.",
+    "summary": "Tobias worked many years as software developer specializing in test automation and continuous integration projects. As co-founder of the open source testing framework [Sakuli](https://github.com/ConSol/sakuli) and the [docker-headless-vnc-container](https://github.com/ConSol/docker-headless-vnc-container), he follow the aim of making the setup and the development of end-2-end tests and monitoring cases simpler.\n\n As conference speaker and organizer of the meetup [Agile Testing @Munich](https://www.meetup.com/de-DE/Agile-Testing-Munich) he is passionate about innovative technologies and ideas which make developers' work easier and complex deployments more convenient. \n\nHis current passion is to increase the acceptance and distribution of container technologies in the Kubernetes eco-system. Bringing the advantages of cloud native technologies and development workflows to everybody is his new purpose.",
     "location": {
       "city": "Munich",
       "countryCode": "DE"
@@ -36,15 +36,65 @@
   },
   "work": [
     {
+      "name": "Loodse GmbH",
+      "location": "Munich (Remote)",
+      "position": "Head of Professional Service",
+      "startDate": "2018-07-01",
+      "highlights": [
+        "Managing and coordinating of the consulting team.",
+        "Creating of customer focused solutions based on Kubernetes or Kubermatic.",
+        "General consulting on cloud technologies like Google Container Engine, Amazon Webservices, etc.",
+        "Develop and establish the cloud native build system KubeCI in the Kubernetes community."
+      ]
+    },
+    {
+      "name": "ConSol Consulting & Solutions Software GmbH",
+      "location": "Munich",
+      "position": "Software Developer & Consultant",
+      "startDate": "2013-04-01",
+      "endDate": "2018-06-01",
+      "highlights": [
+        "Setting up the architectural concept and develop a prototype for a cloud-based testing platform based on the major cloud technologies like Kubernetes/OpenShift.",
+        "Founding and developing the open source project Sakuli E2E and docker-headless-vnc-container. The Sakuli project has the mission to simplify the end-to-end testing and monitoring for web sites and common UIs. All tests can be packed into containers and executed in a very stable manner in CI/CD pipelines. At least in scalable cloud environments like GKE, Kubernetes or OpenShift.",
+        "Building up and improve the internal OpenShift HA cluster installation.",
+        "Consulting in different test automation projects, to build up custom CI/CD pipelines.",
+        "Develop an individual Java-based integration application between CRM and customer's backend systems.",
+        "Setting up integration testing setups for different message protocols, e.g. SOAP, REST or JMS."
+      ]
+    },
+    {
       "name": "Audi AG",
       "location": "Ingolstadt",
       "position": "Working Student",
-      "url": "",
       "startDate": "2012-03-01",
       "endDate": "2013-03-01",
-      "summary": "Regular working at Audi as stundent for a half year. Later on writing bachelor thesis about \"Change management in SAP for parrallel development processes\"",
+      "summary": "Regular working at Audi as student for a half year. Later on writing bachelor thesis about \"Change management in SAP for parallel development processes\"",
       "highlights": [
-        "* Setting up a Workflow on BPMN with the tools SAP Solution Manager and HP ALM for process a effective change management in SAP multi-system environments\n* Editor and admin for role and rights in Audi MyNet Application\n* Tester in Audi social collaboration project"
+        "Setting up a Workflow on BPMN with the tools SAP Solution Manager and HP ALM for process a effective change management in SAP multi-system environments",
+        "Editor and admin for role and rights in Audi MyNet Application",
+        "Tester in Audi social collaboration project"
+      ]
+    },
+    {
+      "name": "Grenzebach Corporation",
+      "location": "Newnan, USA",
+      "position": "IT Intern",
+      "startDate": "2011-09-01",
+      "endDate": "2012-02-01",
+      "highlights": [
+        "Operational tasks for different internal IT systems",
+        "Java Development of internal LDAP application"
+      ]
+    },
+    {
+      "name": "MKR Metzger GmbH",
+      "location": "Monheim",
+      "position": "Trainee & Permanent Employee",
+      "startDate": "2003-09-01",
+      "endDate": "2008-09-01",
+      "highlights": [
+        "IT-System Administration and Sales Support",
+        "Training Program in Industrial Administration"
       ]
     }
   ],
@@ -57,111 +107,200 @@
       "endDate": "",
       "summary": "Organizing and speaking at the Meetup events about all testing related topics.",
       "highlights": [
-        "* Currently more then 800 members\n* 4-6 Events a year"
+        "Focused on topics about agile methods and testing tools, which helps people in there daily projects.",
+        "More then 800 members",
+        "4-6 Events a year"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
+      "institution": "THI - Technical University Ingolstadt",
+      "area": "**Major Subject:** Business Informatics\n**Minor Subject:** Cloud Infrastructures and Mobile Applications",
       "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
-    }
-  ],
-  "awards": [
+      "startDate": "2009-10-01",
+      "endDate": "2013-03-01"
+    },
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
+      "institution": "Upper Vocational School Donauwörth",
+      "area": "Focus on Economics",
+      "studyType": "High School",
+      "startDate": "2008-09-01",
+      "endDate": "2009-07-01"
+    },
+    {
+      "institution": "Vocational School Donauwörth",
+      "area": "**Official qualification in industrial administration:**\nThree-year training program with certification through the German Chamber of Commerce.",
+      "studyType": "Apprenticeship",
+      "startDate": "2003-09-01",
+      "endDate": "2006-03-01"
     }
   ],
   "publications": [
     {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      "name": "Print & Online Article",
+      "publisher": "(planned) Java aktuell",
+      "releaseDate": "2018-10-01",
+      "summary": "Kubernetes-based Build-Pipelines: Build -> Test -> Run!"
+    },
+    {
+      "name": "Print Article",
+      "publisher": "OBJEKTspektrum",
+      "releaseDate": "2017-04-01",
+      "url": "https://www.sigs-datacom.de/digital/objektspektrum",
+      "summary": "End-2-End-UI-Tests mit Sakuli in Container-Umgebungen - \"Time-to-Test\" im Griff"
+    },
+    {
+      "name": "Online Article",
+      "publisher": "JAXenter",
+      "releaseDate": "2017-03-01",
+      "url": "https://jaxenter.de/sakuli-testing-monitoring-container-54374",
+      "summary": "End-2-End-Testing und -Monitoring im Container-Zeitalter"
+    },
+    {
+      "name": "Print & Online Article",
+      "publisher": "Java aktuell",
+      "releaseDate": "2017-01-01",
+      "url": "https://www.consol.de/fileadmin/pdf/news/news-events/01_2017-Java_aktuell-Magazin-Christoph-Deppisch-und-Tobias-Schneck_Automatisiertes-Testen-in-Zeiten-von-Microservices.pdf",
+      "summary": "Automatisiertes Testen in Zeiten von Microservices"
+    },
+    {
+      "name": "Online Article",
+      "publisher": "Informatik Aktuell",
+      "releaseDate": "2016-10-01",
+      "url": "https://www.informatik-aktuell.de/entwicklung/methoden/graphical-user-interface-gui-in-containern-testen.html",
+      "summary": "Software-Test im Container: So können Sie Graphical User Interfaces mit Docker und Sakuli testen"
+    },
+    {
+      "name": "Online Article",
+      "publisher": "heise Developer",
+      "releaseDate": "2016-08-01",
+      "url": "http://www.heise.de/developer/artikel/Testautomatisierung-in-Zeiten-von-Continuous-Delivery-3300566.html",
+      "summary": "Testautomatisierung in Zeiten von Continuous Delivery"
     }
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Container Technologies",
+      "level": "100",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "Docker",
+        "Docker Compose",
+        "containerd"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Cloud Technologies",
+      "level": "90",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "GKE",
+        "AWS",
+        "Kubernetes",
+        "OpenShift"
       ]
-    }
-  ],
-  "languages": [
+    },
     {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Wildlife",
+      "name": "Backend Development",
+      "level": "100",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Java",
+        "Spring Framework",
+        "Java EE",
+        "Spring Boot",
+        "Maven",
+        "Kotlin",
+        "Go"
       ]
-    }
-  ],
-  "references": [
+    },
     {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+      "name": "Web Development",
+      "level": "65",
+      "keywords": [
+        "JavaScript",
+        "NodeJS",
+        "HTML5",
+        "CSS3",
+        "Angular"
+      ]
+    },
+    {
+      "name": "Testing",
+      "level": "100",
+      "keywords": [
+        "Junit",
+        "TestNG",
+        "Citrus",
+        "Sakuli",
+        "Selenium"
+      ]
+    },
+    {
+      "name": "Continuous Integration",
+      "level": "100",
+      "keywords": [
+        "Jenkins",
+        "OpenShift Build Pipelines",
+        "Drone",
+        "Travis",
+        "GitLab CI"
+      ]
     }
   ],
   "projects": [
     {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
+      "name": "Sakuli",
+      "description": "Sakuli E2E testing and monitoring tool",
+      "url": "https://github.com/ConSol/sakuli",
       "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+        "Platform-independent UI testing tool.",
+        "Combines two automation technologies: DOM based web testing and image pattern based UI automation for non-web-content like flash or native applications.",
+        "Integrations into CI/CD and monitoring systems.",
+        "Test execution in fixed containerized testing environment"
       ],
-      "keywords": [
-        "GoogleMaps",
-        "Chrome Extension",
-        "Javascript"
+      "technologies": [
+        "Java (Spring)",
+        "Javascript",
+        "OpenCV",
+        "Go",
+        "Bash",
+        "Docker",
+        "Kubernetes/OpenShift"
       ],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "url": "missdirection.example.com",
+      "startDate": "2014-04-01",
+      "endDate": "2017-07-01",
       "roles": [
+        "Co-Founder",
         "Team lead",
-        "Designer"
+        "Technical Lead"
+      ]
+    },
+    {
+      "name": "docker-headless-vnc-container",
+      "description": "Collection of Docker images with headless VNC environments",
+      "url": "https://github.com/ConSol/docker-headless-vnc-container",
+      "highlights": [
+        "VM like container with full usable Desktop environment.",
+        "Container running in non-root mode",
+        "Ad-hoc Desktop environment even in Kubernetes or OpenShift"
       ],
-      "entity": "Smoogle",
-      "type": "application"
+      "technologies": [
+        "Docker",
+        "Kubernetes/OpenShift",
+        "Bash",
+        "Xfce4 / IceWm",
+        "VNC / WebVNC"
+      ],
+      "startDate": "2015-07-01",
+      "roles": [
+        "Founder",
+        "Maintainer"
+      ]
     }
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
+    "lastModified": "2018-06-28"
   }
 }
 
