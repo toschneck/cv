@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Tobias Schneck",
-    "label": "Consultant",
+    "label": "Software Engineer - Head of Professional Service",
     "picture": "https://en.gravatar.com/userimage/140948561/61c75214320412a41b49a55c78d792a8.png",
     "email": "tobias.schneck@loodse.com",
     "phone": "+49 (40) 60 590 7110",
@@ -55,7 +55,7 @@
       "endDate": "2018-06-01",
       "highlights": [
         "Setting up the architectural concept and develop a prototype for a cloud-based testing platform based on the major cloud technologies like Kubernetes/OpenShift.",
-        "Founding and developing the open source project Sakuli E2E and docker-headless-vnc-container. The Sakuli project has the mission to simplify the end-to-end testing and monitoring for web sites and common UIs. All tests can be packed into containers and executed in a very stable manner in CI/CD pipelines. At least in scalable cloud environments like GKE, Kubernetes or OpenShift.",
+        "Founding and developing the open source project Sakuli E2E and docker-headless-vnc-container. The Sakuli project has the mission to simplify the end-to-end testing and monitoring for web sites and common UIs. All tests can be packed into containers and executed in a very stable manner in CI/CD pipelines. At least in scalable cloud environments like Google Kubernetes Engine, Kubernetes On-Premise or OpenShift.",
         "Building up and improve the internal OpenShift HA cluster installation.",
         "Consulting in different test automation projects, to build up custom CI/CD pipelines.",
         "Develop an individual Java-based integration application between CRM and customer's backend systems.",
@@ -193,7 +193,7 @@
       "name": "Cloud Technologies",
       "level": "90",
       "keywords": [
-        "GKE",
+        "Google Compute/Kubernetes Engine",
         "AWS",
         "Kubernetes",
         "OpenShift"
