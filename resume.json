@@ -244,6 +244,16 @@
         "Travis",
         "GitLab CI"
       ]
+    },
+    {
+      "name": "Project Management",
+      "level":"100",
+      "keywords": [
+        "Scrum",
+        "Kanban",
+        "Project Controlling",
+        "Technical Planning"
+      ]
     }
   ],
   "projects": [
